@@ -1,0 +1,31 @@
+/* public/assets/css/tailwind_input.css */
+
+/*
+  Use @source directives to tell Tailwind where to scan for classes.
+  Each @source directive should be on its own line and end with a semicolon.
+  Paths are relative to the project root.
+*/
+@source "./app/Views/**/*.php";
+@source "./public/assets/**/*.js";
+
+/*
+  Optional: If you need to customize the theme or add plugins directly in CSS,
+  you would use @theme and @plugin directives. These also do NOT have bodies
+  with curly braces in the same way, but define CSS custom properties.
+  Example:
+  @theme {
+    --color-primary-500: #ef4444;
+    --spacing-128: 32rem;
+  }
+  @plugin forms;
+*/
+
+/* Import the core Tailwind CSS v4 */
+@import 'tailwindcss';
+
+/* Your custom CSS can follow here */
+/*
+.my-custom-button {
+  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+}
+*/
