@@ -1,0 +1,156 @@
+<!-- SVG Sprite Sheet: define all icon backgrounds + foregrounds just once -->
+
+  <defs>
+    <!-- Feature 1: Member Onboarding -->
+    <symbol id="fb1-bg" viewBox="0 0 64 64">
+      <circle cx="32" cy="32" r="32" class="fill-yellow-100"/>
+    </symbol>
+    <symbol id="fb1-fg" viewBox="0 0 64 64">
+      <path d="M35 20H24a1 1 0 00-1 1v22a1 1 0 001 1h18a1 1 0 001-1V28h-8v-8z" class="fill-slate-500"/>
+      <path d="M35 20v8h8z" class="fill-slate-500"/>
+    </symbol>
+
+    <!-- Feature 2: Savings & Shares -->
+    <!-- filters & gradient -->
+    <filter id="fb2-a" x="-12.1%" y="-13.2%" width="124.1%" height="136.8%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowColorOuter1"
+        values="0 0 0 0 0.0627 0 0 0 0 0.1137 0 0 0 0 0.1765 0 0 0 0.12 0"/>
+    </filter>
+    <filter id="fb2-c" x="-12.1%" y="-13.2%" width="124.1%" height="136.8%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowColorOuter1"
+        values="0 0 0 0 0.0627 0 0 0 0 0.1137 0 0 0 0 0.1765 0 0 0 0.12 0"/>
+    </filter>
+    <linearGradient id="fb2-e" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#E2EEFF"/>
+    </linearGradient>
+    <!-- shapes -->
+    <symbol id="fb2-bg" viewBox="0 0 64 64">
+      <rect width="64" height="64" rx="32" class="text-green-100 fill-current"/>
+    </symbol>
+    <symbol id="fb2-fg" viewBox="0 0 64 64">
+      <use xlink:href="#fb2-b" fill="#000" filter="url(#fb2-a)"/>
+      <use xlink:href="#fb2-b" fill="#E2EEFF" fill-opacity=".64" class="transition-opacity"/>
+      <use xlink:href="#fb2-d" fill="#000" filter="url(#fb2-c)"/>
+      <use xlink:href="#fb2-d" fill="url(#fb2-e)" class="transition-opacity"/>
+      <path d="M32.5 36a3.5 3.5 0 110-7 3.5 3.5 0 010 7z" fill="#5091EE" fill-opacity=".64" class="transition-opacity"/>
+    </symbol>
+
+    <!-- Feature 3: Loan Management -->
+    <filter id="fb3-a" x="-58.3%" y="-17.9%" width="216.7%" height="150%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowColorOuter1"
+        values="0 0 0 0 0.0627 0 0 0 0 0.1137 0 0 0 0 0.1765 0 0 0 0.12 0"/>
+    </filter>
+    <filter id="fb3-c" x="-19.4%" y="-10.9%" width="138.9%" height="130.4%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowColorOuter1"
+        values="0 0 0 0 0.0627 0 0 0 0 0.1137 0 0 0 0 0.1765 0 0 0 0.12 0"/>
+    </filter>
+    <linearGradient id="fb3-e" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#E2EEFF"/>
+    </linearGradient>
+    <symbol id="fb3-bg" viewBox="0 0 64 64">
+      <rect width="64" height="64" rx="32" class="text-indigo-100 fill-current"/>
+    </symbol>
+    <symbol id="fb3-fg" viewBox="0 0 64 64">
+      <use xlink:href="#fb3-b" fill="#000" filter="url(#fb3-a)"/>
+      <use xlink:href="#fb3-b" fill="#E2EEFF" fill-opacity=".64" class="transition-opacity"/>
+      <use xlink:href="#fb3-d" fill="#000" filter="url(#fb3-c)"/>
+      <use xlink:href="#fb3-d" fill="url(#fb3-e)" class="transition-opacity"/>
+    </symbol>
+
+    <!-- Feature 4: Accounting & Reporting -->
+    <filter id="fb4-a" x="-29.2%" y="-11.5%" width="158.3%" height="132.2%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowColorOuter1"
+        values="0 0 0 0 0.0627 0 0 0 0 0.1137 0 0 0 0 0.1765 0 0 0 0.12 0"/>
+    </filter>
+    <filter id="fb4-d" x="-29.2%" y="-11.5%" width="158.3%" height="132.2%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowColorOuter1"
+        values="0 0 0 0 0.0627 0 0 0 0 0.1137 0 0 0 0 0.1765 0 0 0 0.12 0"/>
+    </filter>
+    <linearGradient id="fb4-c" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#E2EEFF"/>
+    </linearGradient>
+    <symbol id="fb4-bg" viewBox="0 0 64 64">
+      <rect width="64" height="64" rx="32" class="text-yellow-100 fill-current"/>
+    </symbol>
+    <symbol id="fb4-fg" viewBox="0 0 64 64">
+      <use xlink:href="#fb4-b" fill="#000" filter="url(#fb4-a)"/>
+      <use xlink:href="#fb4-b" fill="url(#fb4-c)"/>
+      <use xlink:href="#fb4-e" fill="#000" filter="url(#fb4-d)"/>
+      <use xlink:href="#fb4-e" fill="#E2EEFF" fill-opacity=".64" class="transition-opacity"/>
+    </symbol>
+
+    <!-- Feature 5: Document Management -->
+    <filter id="fb5-a" x="-29.2%" y="-22.7%" width="158.3%" height="163.6%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowColorOuter1"
+        values="0 0 0 0 0.0627 0 0 0 0 0.1137 0 0 0 0 0.1765 0 0 0 0.12 0"/>
+    </filter>
+    <filter id="fb5-c" x="-15.9%" y="-11.4%" width="131.8%" height="131.8%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowColorOuter1"
+        values="0 0 0 0 0.0627 0 0 0 0 0.1137 0 0 0 0 0.1765 0 0 0 0.12 0"/>
+    </filter>
+    <linearGradient id="fb5-e" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#E2EEFF"/>
+    </linearGradient>
+    <symbol id="fb5-bg" viewBox="0 0 64 64">
+      <rect width="64" height="64" rx="32" class="text-purple-100 fill-current"/>
+    </symbol>
+    <symbol id="fb5-fg" viewBox="0 0 64 64">
+      <use xlink:href="#fb5-b" fill="#000" filter="url(#fb5-a)"/>
+      <use xlink:href="#fb5-b" fill="#E2EEFF" fill-opacity=".64" class="transition-opacity"/>
+      <use xlink:href="#fb5-d" fill="#000" filter="url(#fb5-c)"/>
+      <use xlink:href="#fb5-d" fill="url(#fb5-e)"/>
+    </symbol>
+
+    <!-- Feature 6: Notifications & Alerts -->
+    <filter id="fb6-a" x="-14.6%" y="-11.4%" width="129.2%" height="132%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowColorOuter1"
+        values="0 0 0 0 0.0627 0 0 0 0 0.1137 0 0 0 0 0.1765 0 0 0 0.12 0"/>
+    </filter>
+    <filter id="fb6-d" x="-29.2%" y="-20.8%" width="158.3%" height="158.3%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowColorOuter1"
+        values="0 0 0 0 0.0627 0 0 0 0 0.1137 0 0 0 0 0.1765 0 0 0 0.12 0"/>
+    </filter>
+    <linearGradient id="fb6-c" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#E2EEFF"/>
+    </linearGradient>
+    <symbol id="fb6-bg" viewBox="0 0 64 64">
+      <rect width="64" height="64" rx="32" class="text-red-100 fill-current"/>
+    </symbol>
+    <symbol id="fb6-fg" viewBox="0 0 64 64">
+      <use xlink:href="#fb6-b" fill="#000" filter="url(#fb6-a)"/>
+      <use xlink:href="#fb6-b" fill="url(#fb6-c)"/>
+      <use xlink:href="#fb6-e" fill="#000" filter="url(#fb6-d)"/>
+      <use xlink:href="#fb6-e" fill="#E2EEFF" fill-opacity=".64" class="transition-opacity"/>
+    </symbol>
+  </defs>
+

@@ -1,0 +1,60 @@
+{
+  "team": [
+    {
+      "imgSrc": "/assets/images/team-member-01.jpg",
+      "imgAlt": "Kizito Okello",
+      "name": "Kizito Okello",
+      "role": "CEO & Co‑founder, SACCO Management",
+      "delay": 0
+    },
+    {
+      "imgSrc": "/assets/images/team-member-02.jpg",
+      "imgAlt": "Nnina Amina",
+      "name": "Nnina Amina",
+      "role": "Co‑Founder, Head of Microfinance Operations",
+      "delay": 100
+    },
+    {
+      "imgSrc": "/assets/images/team-member-03.jpg",
+      "imgAlt": "Josephine Nabirye",
+      "name": "Josephine Nabirye",
+      "role": "Senior Loan Officer, Microfinance Services",
+      "delay": 200
+    },
+    {
+      "imgSrc": "/assets/images/team-member-04.jpg",
+      "imgAlt": "Edward Ssemanda",
+      "name": "Edward Ssemanda",
+      "role": "Senior Financial Analyst, SACCO Operations",
+      "delay": 300
+    },
+    {
+      "imgSrc": "/assets/images/team-member-05.jpg",
+      "imgAlt": "Patricia Kato",
+      "name": "Patricia Kato",
+      "role": "Software Engineer, SACCO Management Systems",
+      "delay": 400
+    },
+    {
+      "imgSrc": "/assets/images/team-member-06.jpg",
+      "imgAlt": "Amos Byaruhanga",
+      "name": "Amos Byaruhanga",
+      "role": "Business Development Manager, SACCO Growth",
+      "delay": 500
+    },
+    {
+      "imgSrc": "/assets/images/team-member-07.jpg",
+      "imgAlt": "Amina Nalwadda",
+      "name": "Amina Nalwadda",
+      "role": "Marketing Manager, Microfinance Products",
+      "delay": 600
+    },
+    {
+      "imgSrc": "/assets/images/team-member-08.jpg",
+      "imgAlt": "Martha Nabukenya",
+      "name": "Martha Nabukenya",
+      "role": "Community Manager, SACCO Outreach",
+      "delay": 700
+    }
+  ]
+}

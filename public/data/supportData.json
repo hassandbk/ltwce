@@ -1,0 +1,241 @@
+{
+  "articles": [
+    {
+      "id": "t1",
+      "title": "Getting Started with Tidy",
+      "excerpt": "What new users need to know first."
+    },
+    {
+      "id": "t2",
+      "title": "Account Access & Billing",
+      "excerpt": "Manage subscriptions, payments, and invoices."
+    },
+    {
+      "id": "t3",
+      "title": "Best Practices",
+      "excerpt": "Tips and tricks for efficient workflows."
+    },
+    {
+      "id": "t4",
+      "title": "API Integration",
+      "excerpt": "How to connect your systems with our API."
+    },
+    {
+      "id": "t5",
+      "title": "Advanced Tools",
+      "excerpt": "Deep dive into our pro features."
+    }
+  ],
+  "feedbackByArticle": {
+    "t1": [
+      {
+        "userId": "anna-l",
+        "name": "Anna L.",
+        "email": "anna.l@example.com",
+        "location": "Nairobi, Kenya",
+        "timestampDiff": 1,
+        "message": "This guide was so clear—really helped me start quickly!"
+      },
+      {
+        "userId": "kevin-p",
+        "name": "Kevin P.",
+        "email": "kevin.p@domain.co",
+        "location": "Kampala, Uganda",
+        "timestampDiff": 2,
+        "message": "Loved the step-by-step—avoided all the pitfalls."
+      },
+      {
+        "userId": "maria-s",
+        "name": "Maria S.",
+        "email": "maria.s@example.org",
+        "location": "Dar es Salaam, Tanzania",
+        "timestampDiff": 3,
+        "message": "Could use more screenshots, but text was thorough."
+      },
+      {
+        "userId": "james-k",
+        "name": "James K.",
+        "email": "james.k@domain.io",
+        "location": "Mombasa, Kenya",
+        "timestampDiff": 4,
+        "message": "Example code made everything click—thanks!"
+      },
+      {
+        "userId": "linda-r",
+        "name": "Linda R.",
+        "email": "linda.r@example.com",
+        "location": "Kigali, Rwanda",
+        "timestampDiff": 5,
+        "message": "Got up and running in minutes—awesome intro."
+      }
+    ],
+    "t2": [
+      {
+        "userId": "oliver-m",
+        "name": "Oliver M.",
+        "email": "oliver.m@example.com",
+        "location": "Nairobi, Kenya",
+        "timestampDiff": 1,
+        "message": "The billing FAQ answered all my questions about upgrading plans."
+      },
+      {
+        "userId": "emma-w",
+        "name": "Emma W.",
+        "email": "emma.w@domain.co",
+        "location": "Kampala, Uganda",
+        "timestampDiff": 1.5,
+        "message": "Would love a quick video walkthrough, but the article is thorough."
+      },
+      {
+        "userId": "alex-b",
+        "name": "Alex B.",
+        "email": "alex.b@service.io",
+        "location": "Dar es Salaam, Tanzania",
+        "timestampDiff": 2,
+        "message": "Easy to find invoice history and download receipts. Thanks!"
+      },
+      {
+        "userId": "sophia-c",
+        "name": "Sophia C.",
+        "email": "sophia.c@domain.net",
+        "location": "Mombasa, Kenya",
+        "timestampDiff": 2.5,
+        "message": "Payment methods section is very comprehensive."
+      },
+      {
+        "userId": "michael-d",
+        "name": "Michael D.",
+        "email": "michael.d@example.org",
+        "location": "Kigali, Rwanda",
+        "timestampDiff": 3,
+        "message": "Great clarity on cancellation policy."
+      }
+    ],
+    "t3": [
+      {
+        "userId": "rachel-p",
+        "name": "Rachel P.",
+        "email": "rachel.p@example.com",
+        "location": "Nairobi, Kenya",
+        "timestampDiff": 1,
+        "message": "Best practices section improved our team’s efficiency by 30%."
+      },
+      {
+        "userId": "brian-t",
+        "name": "Brian T.",
+        "email": "brian.t@domain.co",
+        "location": "Kampala, Uganda",
+        "timestampDiff": 2,
+        "message": "Loved the pro tips—especially the keyboard shortcuts."
+      },
+      {
+        "userId": "elena-g",
+        "name": "Elena G.",
+        "email": "elena.g@example.org",
+        "location": "Dar es Salaam, Tanzania",
+        "timestampDiff": 3,
+        "message": "Could use more real-world examples, but very insightful."
+      },
+      {
+        "userId": "victor-h",
+        "name": "Victor H.",
+        "email": "victor.h@service.io",
+        "location": "Mombasa, Kenya",
+        "timestampDiff": 4,
+        "message": "The performance tuning tips were spot on."
+      },
+      {
+        "userId": "sophie-n",
+        "name": "Sophie N.",
+        "email": "sophie.n@domain.net",
+        "location": "Kigali, Rwanda",
+        "timestampDiff": 5,
+        "message": "Clear, concise, and actionable recommendations."
+      }
+    ],
+    "t4": [
+      {
+        "userId": "chris-k",
+        "name": "Chris K.",
+        "email": "chris.k@example.com",
+        "location": "Nairobi, Kenya",
+        "timestampDiff": 1,
+        "message": "API integration guide was rock solid—worked first try."
+      },
+      {
+        "userId": "dana-l",
+        "name": "Dana L.",
+        "email": "dana.l@domain.co",
+        "location": "Kampala, Uganda",
+        "timestampDiff": 2,
+        "message": "Loved the code samples in several languages."
+      },
+      {
+        "userId": "ethan-w",
+        "name": "Ethan W.",
+        "email": "ethan.w@example.org",
+        "location": "Dar es Salaam, Tanzania",
+        "timestampDiff": 3,
+        "message": "Error-handling examples were very helpful."
+      },
+      {
+        "userId": "fiona-z",
+        "name": "Fiona Z.",
+        "email": "fiona.z@service.io",
+        "location": "Mombasa, Kenya",
+        "timestampDiff": 4,
+        "message": "Would like a Swagger UI sandbox example."
+      },
+      {
+        "userId": "george-y",
+        "name": "George Y.",
+        "email": "george.y@domain.net",
+        "location": "Kigali, Rwanda",
+        "timestampDiff": 5,
+        "message": "Authentication section covered all my questions."
+      }
+    ],
+    "t5": [
+      {
+        "userId": "helen-q",
+        "name": "Helen Q.",
+        "email": "helen.q@example.com",
+        "location": "Nairobi, Kenya",
+        "timestampDiff": 1,
+        "message": "Advanced tools overview unlocked new capabilities for us."
+      },
+      {
+        "userId": "ian-r",
+        "name": "Ian R.",
+        "email": "ian.r@domain.co",
+        "location": "Kampala, Uganda",
+        "timestampDiff": 2,
+        "message": "Dashboard analytics tips saved me hours of manual work."
+      },
+      {
+        "userId": "janet-s",
+        "name": "Janet S.",
+        "email": "janet.s@example.org",
+        "location": "Dar es Salaam, Tanzania",
+        "timestampDiff": 3,
+        "message": "Loved the customization examples."
+      },
+      {
+        "userId": "kyle-t",
+        "name": "Kyle T.",
+        "email": "kyle.t@domain.io",
+        "location": "Mombasa, Kenya",
+        "timestampDiff": 4,
+        "message": "Great deep dive into workflow automation."
+      },
+      {
+        "userId": "laura-v",
+        "name": "Laura V.",
+        "email": "laura.v@example.com",
+        "location": "Kigali, Rwanda",
+        "timestampDiff": 5,
+        "message": "Professional, well-structured content."
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "testimonials": [
+    {
+      "imgSrc": "/assets/images/testimonial-01.jpg",
+      "imgAlt": "Testimonial 01",
+      "quote": "LTWCE SACCO has transformed how we access and manage loans, making the process seamless and efficient.",
+      "name": "Kizito Okello",
+      "role": "CEO, LTWCE SACCO",
+      "delay": 0
+    },
+    {
+      "imgSrc": "/assets/images/testimonial-02.jpg",
+      "imgAlt": "Testimonial 02",
+      "quote": "As a microfinance institution, we found LTWCE SACCO's personalized loan products to be a game-changer for our clients.",
+      "name": "Amina Nalwadda",
+      "role": "Microfinance Director, MFI Uganda",
+      "delay": 100
+    },
+    {
+      "imgSrc": "/assets/images/testimonial-03.jpg",
+      "imgAlt": "Testimonial 03",
+      "quote": "The efficient system that LTWCE SACCO offers has streamlined our financial operations and benefited our members greatly.",
+      "name": "Josephine Nabirye",
+      "role": "Operations Manager, SACCO Uganda",
+      "delay": 200
+    },
+    {
+      "imgSrc": "/assets/images/testimonial-04.jpg",
+      "imgAlt": "Testimonial 04",
+      "quote": "Thanks to LTWCE SACCO, we have significantly reduced processing times for loan applications and approvals.",
+      "name": "Edward Ssemanda",
+      "role": "Senior Loan Officer, SACCO Uganda",
+      "delay": 300
+    },
+    {
+      "imgSrc": "/assets/images/testimonial-05.jpg",
+      "imgAlt": "Testimonial 05",
+      "quote": "We’ve seen a 30% improvement in our clients’ financial wellbeing, all thanks to LTWCE SACCO’s loan products.",
+      "name": "Patricia Kato",
+      "role": "Financial Analyst, MFI Uganda",
+      "delay": 400
+    },
+    {
+      "imgSrc": "/assets/images/testimonial-06.jpg",
+      "imgAlt": "Testimonial 06",
+      "quote": "The user-friendly interface of LTWCE SACCO's platform has made it easy for our staff and members to navigate.",
+      "name": "Amos Byaruhanga",
+      "role": "Business Development Manager, LTWCE SACCO",
+      "delay": 500
+    }
+  ]
+}

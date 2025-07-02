@@ -1,0 +1,36 @@
+[x-cloak] {
+  display: none !important;
+}
+
+/* Headings: Cinzel */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Cinzel', serif;
+}
+
+/* Body & other text: Playfair Display */
+body,
+p,
+a,
+span,
+li,
+ul,
+ol,
+button,
+label,
+input,
+textarea {
+  font-family: 'Playfair Display', serif;
+}
+@keyframes scroll-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(var(--scroll-dist));
+  }
+}

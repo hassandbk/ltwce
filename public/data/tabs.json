@@ -1,0 +1,44 @@
+{
+  "tabs": [
+    {
+      "id": "1",
+      "label": "Onboarding",
+      "delay": 0,
+      "icon": "fas fa-sign-in-alt",
+      "image": {
+        "src": "/assets/images/onboarding.jpeg",
+        "alt": "Onboarding process"
+      }
+    },
+    {
+      "id": "2",
+      "label": "Savings",
+      "delay": 100,
+      "icon": "fas fa-piggy-bank",
+      "image": {
+        "src": "/assets/images/saving.jpg",
+        "alt": "Savings dashboard"
+      }
+    },
+    {
+      "id": "3",
+      "label": "Loans",
+      "delay": 200,
+      "icon": "fas fa-hand-holding-usd",
+      "image": {
+        "src": "/assets/images/loan.jpeg",
+        "alt": "Loan management"
+      }
+    },
+    {
+      "id": "4",
+      "label": "Reports",
+      "delay": 300,
+      "icon": "fas fa-chart-line",
+      "image": {
+        "src": "/assets/images/reports.png",
+        "alt": "Reports & analytics"
+      }
+    }
+  ]
+}

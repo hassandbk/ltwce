@@ -1,0 +1,205 @@
+[
+  {
+    "id": 1,
+    "slug": "small-scale-farming",
+    "title": "Small‑scale farming (crops & livestock)",
+    "desc": "We provide seeds, training and low‑interest loans so farmers can boost yields, diversify livestock and build lasting agro‑enterprises that feed families and strengthen our local economy.",
+    "img": "/assets/images/services/farming.jpeg"
+  },
+  {
+    "id": 2,
+    "slug": "bricklaying-masonry",
+    "title": "Bricklaying & masonry",
+    "desc": "Our masonry workshops teach modern techniques and supply micro‑credit for tools—enabling masons to construct safe, durable homes, schools and clinics that stand the test of time.",
+    "img": "/assets/images/services/bricklaying.jpeg"
+  },
+  {
+    "id": 3,
+    "slug": "carpentry-joinery",
+    "title": "Carpentry & joinery",
+    "desc": "Through hands‑on training and startup grants, we empower carpenters to craft furniture, doors and windows—fostering micro‑businesses that serve homes, churches and community centers.",
+    "img": "/assets/images/services/carpentry.jpeg"
+  },
+  {
+    "id": 4,
+    "slug": "plumbing",
+    "title": "Plumbing",
+    "desc": "We offer certification courses and equipment financing so local plumbers can install clean water systems, maintain sanitation infrastructure and improve health outcomes across Lubaga.",
+    "img": "/assets/images/services/plumbing.jpeg"
+  },
+  {
+    "id": 5,
+    "slug": "electrical-installation",
+    "title": "Electrical installation",
+    "desc": "Our electrical training programs and business loans equip electricians to wire homes, schools and clinics—ensuring reliable power and safer communities.",
+    "img": "/assets/images/services/electrical.jpeg"
+  },
+  {
+    "id": 6,
+    "slug": "painting-decorating",
+    "title": "Painting & decorating",
+    "desc": "From community halls to private homes, we fund and coach painters on quality techniques—adding beauty, protection and pride to every painted surface.",
+    "img": "/assets/images/services/painting.jpeg"
+  },
+  {
+    "id": 7,
+    "slug": "motorcycle-repair",
+    "title": "Motorcycle repair",
+    "desc": "Our boda‑boda mechanics get tool kits and business mentorship—so they can keep hundreds of riders safe, earn fair wages and provide vital transport services.",
+    "img": "/assets/images/services/motorcycle.jpeg"
+  },
+  {
+    "id": 8,
+    "slug": "car-mechanics-auto-repair",
+    "title": "Car mechanics & auto repair",
+    "desc": "With diagnostic training and startup capital, aspiring mechanics learn to service vehicles professionally—keeping taxis and private cars running smoothly.",
+    "img": "/assets/images/services/car-repair.jpeg"
+  },
+  {
+    "id": 9,
+    "slug": "bodywork-spray-painting",
+    "title": "Bodywork & spray painting",
+    "desc": "We support auto‑body artisans with materials and marketing guidance—helping them restore vehicles to like‑new condition and build loyal customer bases.",
+    "img": "/assets/images/services/bodywork.jpeg"
+  },
+  {
+    "id": 10,
+    "slug": "retail-trade",
+    "title": "Retail trade",
+    "desc": "Our micro‑loan program helps shopkeepers stock essential goods at fair prices—strengthening local supply chains and ensuring families have what they need every day.",
+    "img": "/assets/images/services/retail.jpeg"
+  },
+  {
+    "id": 11,
+    "slug": "wholesale-distribution",
+    "title": "Wholesale distribution",
+    "desc": "By pooling orders and offering bulk‑buy finance, we enable distributors to import and supply groceries, hardware and farming inputs more affordably.",
+    "img": "/assets/images/services/wholesale.jpeg"
+  },
+  {
+    "id": 12,
+    "slug": "soap-making",
+    "title": "Soap making",
+    "desc": "We teach sustainable soap‑making methods and offer seed capital—so entrepreneurs can produce eco‑friendly soaps that improve hygiene and generate income.",
+    "img": "/assets/images/services/soap-making.jpeg"
+  },
+  {
+    "id": 13,
+    "slug": "brick-tile-making",
+    "title": "Brick & tile making",
+    "desc": "Our kiln‑building workshops and material financing help local manufacturers produce quality bricks and tiles—fueling construction projects across Lubaga.",
+    "img": "/assets/images/services/brick-tile.jpeg"
+  },
+  {
+    "id": 14,
+    "slug": "basket-weaving-handicrafts",
+    "title": "Basket weaving & handicrafts",
+    "desc": "Through artisan collectives and micro‑grants, we preserve traditional weaving skills—transforming local fibers into marketable baskets and giftware.",
+    "img": "/assets/images/services/handicrafts.jpeg"
+  },
+  {
+    "id": 15,
+    "slug": "pottery-ceramics",
+    "title": "Pottery & ceramics",
+    "desc": "From clay sourcing to kiln operation, our pottery programs empower creators to produce functional and decorative ceramics for home use and tourism.",
+    "img": "/assets/images/services/pottery.jpeg"
+  },
+  {
+    "id": 16,
+    "slug": "tailoring-fashion-design",
+    "title": "Tailoring & fashion design",
+    "desc": "We offer pattern‑making workshops and sewing‑machine micro‑loans—helping tailors launch custom apparel brands that reflect Lubaga’s vibrant style.",
+    "img": "/assets/images/services/tailoring.jpeg"
+  },
+  {
+    "id": 17,
+    "slug": "catering-food-services",
+    "title": "Catering & food services",
+    "desc": "Our catering incubator provides kitchen space, training and event‑booking support—enabling cooks to launch businesses for weddings, parties and community gatherings.",
+    "img": "/assets/images/services/catering.jpeg"
+  },
+  {
+    "id": 18,
+    "slug": "baking-bread-cakes-pastries",
+    "title": "Baking (bread, cakes, pastries)",
+    "desc": "With recipe development classes and baking‑equipment loans, we help artisans produce fresh breads, cakes and pastries that delight customers every morning.",
+    "img": "/assets/images/services/baking.jpeg"
+  },
+  {
+    "id": 19,
+    "slug": "barbershops-beauty-salons",
+    "title": "Barbershops & beauty salons",
+    "desc": "Our cosmetology programs and small‑business grants equip stylists and barbers to deliver top‑quality grooming services—boosting confidence and local employment.",
+    "img": "/assets/images/services/barbershop.jpeg"
+  },
+  {
+    "id": 20,
+    "slug": "herbal-medicine-healing",
+    "title": "Herbal medicine & healing",
+    "desc": "We support traditional healers with herb‑garden grants and safety training—preserving indigenous remedies while ensuring community health standards.",
+    "img": "/assets/images/services/herbal.jpeg"
+  },
+  {
+    "id": 21,
+    "slug": "health-clinics-mobile-health",
+    "title": "Health clinics & mobile health",
+    "desc": "Through microfinance and training, we expand community clinics and mobile‐health units—bringing essential medical services to underserved neighborhoods.",
+    "img": "/assets/images/services/health.jpeg"
+  },
+  {
+    "id": 22,
+    "slug": "solar-installation",
+    "title": "Solar installation",
+    "desc": "Our clean‑energy fund provides panels and training—enabling households and businesses to adopt solar power, reduce bills and protect the environment.",
+    "img": "/assets/images/services/solar.jpeg"
+  },
+  {
+    "id": 23,
+    "slug": "computer-repair-it",
+    "title": "Computer repair & IT",
+    "desc": "We offer ICT courses and startup kits so technicians can repair computers, set up networks and deliver affordable tech support to local schools and entrepreneurs.",
+    "img": "/assets/images/services/computer-repair.jpeg"
+  },
+  {
+    "id": 24,
+    "slug": "vocational-training",
+    "title": "Vocational training",
+    "desc": "Our skills‐training academy offers certified courses in carpentry, plumbing, electrical work and more—equipping youth with marketable trades.",
+    "img": "/assets/images/services/vocational-training.jpeg"
+  },
+  {
+    "id": 25,
+    "slug": "financial-literacy-savings",
+    "title": "Financial literacy & savings",
+    "desc": "Through workshops and peer‐mentorship, we teach budgeting, savings strategies and responsible borrowing—empowering members to grow their wealth.",
+    "img": "/assets/images/services/financial-literacy.jpeg"
+  },
+  {
+    "id": 26,
+    "slug": "microfinance-lending",
+    "title": "Microfinance lending",
+    "desc": "Our microloan schemes provide accessible credit at fair rates—helping entrepreneurs launch or expand businesses and drive local economic growth.",
+    "img": "/assets/images/services/microfinance.jpeg"
+  },
+  {
+    "id": 27,
+    "slug": "waste-collection-recycling",
+    "title": "Waste collection & recycling",
+    "desc": "We fund eco‑driven waste‐management startups and run recycling drives—keeping our streets clean and creating green jobs.",
+    "img": "/assets/images/services/waste-collection.jpeg"
+  },
+  {
+    "id": 28,
+    "slug": "tree-planting-environmental",
+    "title": "Tree planting & environmental",
+    "desc": "Through community‐led tree‑planting campaigns, we restore green spaces, improve air quality and foster environmental stewardship for future generations.",
+    "img": "/assets/images/services/tree-planting.jpeg"
+  },
+  {
+    "id": 29,
+    "slug": "hair-salons-barbers",
+    "title": "Hair salons & barbers",
+    "desc": "From cutting‐edge styling courses to startup loans, we help hairdressers and barbers launch thriving salons that serve every member of our community.",
+    "img": "/assets/images/services/hair-salon.jpeg"
+  }
+]
