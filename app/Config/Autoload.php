@@ -6,28 +6,44 @@ use CodeIgniter\Config\AutoloadConfig;
 
 class Autoload extends AutoloadConfig
 {
+    // Autoloading libraries and services
     public $psr4 = [
-        APP_NAMESPACE    => APPPATH,          // covers Controllers, Models, Services, etc.
-        'App\Libraries'  => APPPATH . 'Libraries',
-        'App\Commands'   => APPPATH . 'Commands',
-        'App\Entities'   => APPPATH . 'Entities',
-        'App\ThirdParty' => APPPATH . 'ThirdParty',
-        // If you created Services in app/Services, you could add:
-        //'App\Services'   => APPPATH . 'Services',
+        APP_NAMESPACE    => APPPATH,          // Covers Controllers, Models, Services, etc.
+        'App\Libraries'  => APPPATH . 'Libraries',  // Custom Libraries
+        'App\Commands'   => APPPATH . 'Commands',   // Custom CLI Commands
+        'App\Entities'   => APPPATH . 'Entities',   // Custom Entities (ORM-style)
+        'App\ThirdParty' => APPPATH . 'ThirdParty', // Third-party libraries
+        // Add other namespaces as needed:
+        // 'App\Services'   => APPPATH . 'Services',
     ];
 
-    public $classmap = [];
+    // Manually specify class maps, for cases where autoloading doesn't work or you want to override
+    public $classmap = [
+        // Add any non-PSR-4 classes here if necessary
+    ];
 
+    // Files to be included (e.g., constants, global configurations)
     public $files = [
-        APPPATH . 'Config/Constants.php',
-        // e.g. APPPATH . 'Config/SomeOtherGlobals.php',
+        APPPATH . 'Config/Constants.php', // Define global constants
+        APPPATH . 'Config/SomeOtherGlobals.php', // Example of another global config
     ];
 
+    // Autoloading helpers
     public $helpers = [
-        'url', 'form', 'date',
-        'text', 'number',
-        'filesystem', 'security',
-        'money_helper', 'auth_helper',
-        'notification_helper', 'file_helper',
+        // Core helpers provided by CodeIgniter
+        'url', 'form', 'date', 
+        'text', 'number', 
+        'filesystem', 'security', 
+
+        // Custom helpers specific to your app
+        'money_helper',        // Custom helper for currency formatting
+        'auth_helper',         // Authentication and user management helpers
+        'notification_helper', // For handling notifications
+        'file_helper',         // File management helpers
+        'view_helper',         // For loading views and partials (header, footer, modals)
+        'array_helper',        // Helper for working with arrays
+        'string_helper',       // For string manipulations
+        'email_helper',        // Email-related helper (e.g., sending emails)
+        'pagination_helper',   // Pagination functionality helper
     ];
 }
