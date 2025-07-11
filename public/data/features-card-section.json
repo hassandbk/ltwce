@@ -1,0 +1,33 @@
+{
+  "mainHeading": "Manage Your Money with Ease",
+  "subDescription": "As a Lubaga SACCO member, you have everything you need to save, borrow, and plan — all in one place.",
+  "cards": [
+    {
+      "id": "1",
+      "badgeNumber": 1,
+      "badgeHoverColorClass": "green-500",
+      "image": "/assets/images/features-home-3-01.jpg",
+      "alt": "Full Audit Trail",
+      "title": "Track Your Transactions",
+      "description": "See every deposit and withdrawal in one simple view, so you always know where your money stands."
+    },
+    {
+      "id": "2",
+      "badgeNumber": 2,
+      "badgeHoverColorClass": "yellow-300",
+      "image": "/assets/images/features-home-3-02.jpg",
+      "alt": "Real-Time Dashboard",
+      "title": "Watch Your Savings Grow",
+      "description": "Check your balance at any time and see how close you are to reaching your goals."
+    },
+    {
+      "id": "3",
+      "badgeNumber": 3,
+      "badgeHoverColorClass": "teal-500",
+      "image": "/assets/images/features-home-3-03.jpg",
+      "alt": "Automated Alerts",
+      "title": "Friendly Reminders",
+      "description": "Receive SMS and email alerts before payments are due, so you never miss a deadline."
+    }
+  ]
+}

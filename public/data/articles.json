@@ -1,17 +1,15 @@
 {
   "sections": [
     {
+      "id": 1,
       "title": "Latest News",
       "delayStep": 0,
       "articles": [
         {
           "id": 101,
           "slug": "ltwce-sacco-web-portal-launch",
-          "delay": 0,
           "imgSrc": "/assets/images/blog-post-02.jpg",
           "imgAlt": "SACCO Portal Launch",
-          "imgWidth": 540,
-          "imgHeight": 340,
           "headline": "LTWCE SACCO Web Portal Launch: Transforming Member Access",
           "excerpt": "The new LTWCE SACCO web portal offers members seamless access to microfinance services, loan applications, and account management.",
           "authorImg": "/assets/images/news-author-02.jpg",
@@ -22,11 +20,8 @@
         {
           "id": 102,
           "slug": "microfinance-success-stories",
-          "delay": 100,
           "imgSrc": "/assets/images/blog-post-03.jpg",
           "imgAlt": "Microfinance Success",
-          "imgWidth": 540,
-          "imgHeight": 340,
           "headline": "Microfinance Success: Empowering Communities through SACCO Loans",
           "excerpt": "How LTWCE SACCO's microfinance services are helping members grow their small businesses and improve their financial health.",
           "authorImg": "/assets/images/news-author-03.jpg",
@@ -37,11 +32,8 @@
         {
           "id": 103,
           "slug": "sacco-loan-application-guide",
-          "delay": 200,
           "imgSrc": "/assets/images/blog-post-04.jpg",
           "imgAlt": "SACCO Loan Guide",
-          "imgWidth": 540,
-          "imgHeight": 340,
           "headline": "How to Apply for a SACCO Loan Online",
           "excerpt": "A step-by-step guide to applying for SACCO loans through the LTWCE online platform.",
           "authorImg": "/assets/images/news-author-03.jpg",
@@ -52,17 +44,15 @@
       ]
     },
     {
+      "id": 2,
       "title": "Popular Services",
       "delayStep": 0,
       "articles": [
         {
           "id": 201,
           "slug": "micro-insurance-services-for-members",
-          "delay": 0,
           "imgSrc": "/assets/images/blog-post-05.jpg",
           "imgAlt": "Micro Insurance Services",
-          "imgWidth": 540,
-          "imgHeight": 340,
           "headline": "LTWCE SACCO's New Micro-Insurance Services for Members",
           "excerpt": "Affordable micro-insurance products tailored to protect SACCO members and their families against unexpected events.",
           "authorImg": "/assets/images/news-author-02.jpg",
@@ -73,11 +63,8 @@
         {
           "id": 202,
           "slug": "how-to-secure-loans-for-small-businesses",
-          "delay": 100,
           "imgSrc": "/assets/images/blog-post-06.jpg",
           "imgAlt": "Small Business Loans",
-          "imgWidth": 540,
-          "imgHeight": 340,
           "headline": "Securing Loans for Small Businesses through LTWCE SACCO",
           "excerpt": "A comprehensive guide on how SACCO members can access business loans and grow their small enterprises.",
           "authorImg": "/assets/images/news-author-05.jpg",
@@ -88,11 +75,8 @@
         {
           "id": 203,
           "slug": "sacco-community-development-program",
-          "delay": 200,
           "imgSrc": "/assets/images/blog-post-07.jpg",
           "imgAlt": "Community Development",
-          "imgWidth": 540,
-          "imgHeight": 340,
           "headline": "How LTWCE SACCO is Leading Community Development Initiatives",
           "excerpt": "Discover how LTWCE SACCO supports its community through various development programs aimed at improving livelihoods.",
           "authorImg": "/assets/images/news-author-06.jpg",
@@ -103,17 +87,15 @@
       ]
     },
     {
+      "id": 3,
       "title": "Products & Services",
       "delayStep": 0,
       "articles": [
         {
           "id": 301,
           "slug": "introducing-ltwce-sacco-mobile-app",
-          "delay": 0,
           "imgSrc": "/assets/images/blog-post-08.jpg",
           "imgAlt": "SACCO Mobile App",
-          "imgWidth": 540,
-          "imgHeight": 340,
           "headline": "Introducing the LTWCE SACCO Mobile App for Easy Transactions",
           "excerpt": "The LTWCE SACCO mobile app is now available for quick loan applications, savings tracking, and account management on-the-go.",
           "authorImg": "/assets/images/news-author-07.jpg",
@@ -124,11 +106,8 @@
         {
           "id": 302,
           "slug": "ltwce-sacco-new-loan-products",
-          "delay": 100,
           "imgSrc": "/assets/images/blog-post-09.jpg",
           "imgAlt": "SACCO Loan Products",
-          "imgWidth": 540,
-          "imgHeight": 340,
           "headline": "Explore New Loan Products from LTWCE SACCO",
           "excerpt": "LTWCE SACCO introduces new loan products designed to help members meet their financial goals with ease and flexibility.",
           "authorImg": "/assets/images/news-author-02.jpg",
@@ -139,11 +118,8 @@
         {
           "id": 303,
           "slug": "sacco-membership-benefits",
-          "delay": 200,
           "imgSrc": "/assets/images/blog-post-10.jpg",
           "imgAlt": "SACCO Membership Benefits",
-          "imgWidth": 540,
-          "imgHeight": 340,
           "headline": "The Benefits of Becoming a Member of LTWCE SACCO",
           "excerpt": "An in-depth look at the benefits of SACCO membership, including financial services, community support, and more.",
           "authorImg": "/assets/images/news-author-05.jpg",

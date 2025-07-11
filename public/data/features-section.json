@@ -1,0 +1,28 @@
+{
+  "mainHeading": "Your Seamless Journey to Financial Growth",
+  "subHeading": "Empowering Your Financial Journey",
+  "subDescription": "Discover the ease of managing your SACCO benefits, from hassle-free onboarding to real-time financial updates and direct communication with our dedicated support team.",
+  "items": [
+    {
+      "id": "1",
+      "heading": "Simple Onboarding & Membership",
+      "description": "Join LTWCE SACCO effortlessly with our streamlined digital sign-up process. Becoming a member has never been this easy and secure.",
+      "image": "features-home-3-01.jpg",
+      "alt": "LTWCE SACCO Digital Onboarding"
+    },
+    {
+      "id": "2",
+      "heading": "Comprehensive Member Dashboard",
+      "description": "Manage your savings, shares, and loans with a personalized dashboard. Get a clear overview of your financial standing anytime, anywhere.",
+      "image": "features-home-3-02.jpg",
+      "alt": "LTWCE SACCO Member Dashboard"
+    },
+    {
+      "id": "3",
+      "heading": "Instant Communication & Support",
+      "description": "Receive timely updates on transactions and loan statuses, and communicate directly with our support team through our integrated messaging system for quick assistance.",
+      "image": "features-home-3-03.jpg",
+      "alt": "LTWCE SACCO Instant Messaging"
+    }
+  ]
+}

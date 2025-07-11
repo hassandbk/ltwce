@@ -1,52 +1,111 @@
 {
+  "heroSection": {
+    "mainHeading": "Join 70K+ companies and investors",
+    "subHeading": "We're proud to have played a part in these amazing journeys."
+  },
+  "testimonialsSection": {
+    "mainHeading": "What our customers are saying about us",
+    "callToAction": "See All Customers →"
+  },
   "testimonials": [
     {
+      "id": "text-1",
+      "type": "text",
       "imgSrc": "/assets/images/testimonial-01.jpg",
       "imgAlt": "Testimonial 01",
       "quote": "LTWCE SACCO has transformed how we access and manage loans, making the process seamless and efficient.",
       "name": "Kizito Okello",
-      "role": "CEO, LTWCE SACCO",
-      "delay": 0
+      "role": "CEO, LTWCE SACCO"
     },
     {
+      "id": "text-2",
+      "type": "text",
       "imgSrc": "/assets/images/testimonial-02.jpg",
       "imgAlt": "Testimonial 02",
       "quote": "As a microfinance institution, we found LTWCE SACCO's personalized loan products to be a game-changer for our clients.",
       "name": "Amina Nalwadda",
-      "role": "Microfinance Director, MFI Uganda",
-      "delay": 100
+      "role": "Microfinance Director, MFI Uganda"
     },
     {
+      "id": "text-3",
+      "type": "text",
       "imgSrc": "/assets/images/testimonial-03.jpg",
       "imgAlt": "Testimonial 03",
       "quote": "The efficient system that LTWCE SACCO offers has streamlined our financial operations and benefited our members greatly.",
       "name": "Josephine Nabirye",
-      "role": "Operations Manager, SACCO Uganda",
-      "delay": 200
+      "role": "Operations Manager, SACCO Uganda"
     },
     {
+      "id": "text-4",
+      "type": "text",
       "imgSrc": "/assets/images/testimonial-04.jpg",
       "imgAlt": "Testimonial 04",
       "quote": "Thanks to LTWCE SACCO, we have significantly reduced processing times for loan applications and approvals.",
       "name": "Edward Ssemanda",
-      "role": "Senior Loan Officer, SACCO Uganda",
-      "delay": 300
+      "role": "Senior Loan Officer, SACCO Uganda"
     },
     {
+      "id": "text-5",
+      "type": "text",
       "imgSrc": "/assets/images/testimonial-05.jpg",
       "imgAlt": "Testimonial 05",
       "quote": "We’ve seen a 30% improvement in our clients’ financial wellbeing, all thanks to LTWCE SACCO’s loan products.",
       "name": "Patricia Kato",
-      "role": "Financial Analyst, MFI Uganda",
-      "delay": 400
+      "role": "Financial Analyst, MFI Uganda"
     },
     {
+      "id": "text-6",
+      "type": "text",
       "imgSrc": "/assets/images/testimonial-06.jpg",
       "imgAlt": "Testimonial 06",
       "quote": "The user-friendly interface of LTWCE SACCO's platform has made it easy for our staff and members to navigate.",
       "name": "Amos Byaruhanga",
-      "role": "Business Development Manager, LTWCE SACCO",
-      "delay": 500
+      "role": "Business Development Manager, LTWCE SACCO"
+    },
+    {
+      "id": "video-1",
+      "type": "video",
+      "company": "LTWCE SACCO",
+      "companyHref": "#",
+      "description": "LTWCE SACCO transformed how we access financial services, offering personalized loan products tailored to our needs.",
+      "quote": "Thanks to LTWCE SACCO, we can easily access loans with flexible terms and manage our savings with ease.",
+      "avatarSrc": "/assets/images/customer-avatar-01.jpg",
+      "avatarAlt": "Christine Duck",
+      "person": "Christine Duck",
+      "role": "CEO, LTWCE SACCO",
+      "videoPoster": "/assets/images/customers-01.jpg",
+      "testimonialVideoSrc": "/assets/videos/video.mp4",
+      "reverse": true
+    },
+    {
+      "id": "video-2",
+      "type": "video",
+      "company": "MFI Uganda",
+      "companyHref": "#",
+      "description": "MFI Uganda gained a new level of operational efficiency through LTWCE SACCO's loan management platform.",
+      "quote": "LTWCE SACCO’s platform has drastically improved the efficiency of our loan disbursement and management.",
+      "avatarSrc": "/assets/images/customer-avatar-02.jpg",
+      "avatarAlt": "Marco Tancredi",
+      "person": "Marco Tancredi",
+      "role": "CTO, MFI Uganda",
+      "videoPoster": "/assets/images/customers-02.jpg",
+      "testimonialVideoSrc": "/assets/videos/video.mp4",
+      "reverse": false
+    },
+    {
+      "id": "video-3",
+      "type": "video",
+      "company": "SACCO Uganda",
+      "companyHref": "#",
+      "description": "SACCO Uganda didn't get the efficient loan approval system they wanted—until they partnered with LTWCE SACCO.",
+      "quote": "We’ve seen a dramatic reduction in loan approval times, and our members are thrilled with the new system.",
+      "avatarSrc": "/assets/images/customer-avatar-03.jpg",
+      "avatarAlt": "Štefan Štefančík",
+      "person": "Štefan Štefančík",
+      "role": "Partner, SACCO Uganda",
+      "videoPoster": "/assets/images/customers-03.jpg",
+      "testimonialVideoSrc": "/assets/videos/video.mp4",
+      "reverse": true
     }
   ]
 }

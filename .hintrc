@@ -1,0 +1,24 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "text-size-adjust",
+          "-webkit-text-size-adjust",
+          "background-color: color-mix(in srgb, #000 50%, transparent)",
+          "background-color: color-mix(in srgb, oklch(0.929 0.013 255.508) 50%, transparent)",
+          "background-color: color-mix(in srgb, #fff 50%, transparent)"
+        ]
+      }
+    ]
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not chrome <= 109"
+  ]
+}

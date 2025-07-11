@@ -1,37 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Head Section -->
-<?= view('partials/head', ['data' => $data]); ?>
+<?= view('partials/head', ['data' => $data, 'styles' => $styles ?? []]); ?>
 
-<body class="tracking-tight text-slate-800 antialiased font-inter bg-white" x-data="supportApp()" x-init="init()"
-    x-cloak>
-    <!-- Page wrapper -->
-    <div class="overflow-hidden min-h-screen flex-col flex">
-        <!-- Header Section -->
-        <?= view('partials/header', ['data' => $data]); ?>
-
-        <!-- Main Content (Dynamic Content) -->
-        <div class="overflow-hidden min-h-screen flex-col flex-1">
-
-            <!-- Dynamically injected content (home.php or other views) -->
-            <?= isset($data['content']) ? $data['content'] : ''; ?>
-
-        </div>
-        <!-- Footer Section -->
-        <?= view('partials/modals/modals_auth', ['data' => $data]); ?>
-
-        <!-- Footer Section -->
-        <?= view('partials/footer', ['data' => $data]); ?>
-    </div>
-    <!-- Footer Scripts -->
-    <?= view('partials/footer_scripts', ['data' => $data]); ?>
-
-    <!-- Additional JS files (Optional) -->
-    <?php if (!empty($data['scripts'])): ?>
-        <?php foreach ($data['scripts'] as $script): ?>
-            <script src="<?= base_url($script) ?>"></script>
-        <?php endforeach; ?>
+<body class="tracking-tight text-slate-800 antialiased font-inter bg-white" x-data="authModalApp()" x-init="
+    init();
+    <?php if (session()->getFlashdata('show_login')): ?>
+        open('login');
     <?php endif; ?>
+" x-cloak>
+  <div class="overflow-hidden min-h-screen flex-col flex">
+    <?= view('partials/header', ['data' => $data]); ?>
+
+    <div class="flex-1 overflow-hidden">
+      <?= $content ?? ''; ?>
+    </div>
+
+    <?= view('partials/modals/modals_auth'); ?>
+    <?= view('partials/footer'); ?>
+  </div>
+
+  <?= view('partials/footer_scripts', [
+    'helper_scripts' => $helper_scripts ?? [], // Pass helper scripts
+    'component_scripts' => $component_scripts ?? [] // Pass component scripts
+  ]); ?>
 </body>
 
 </html>

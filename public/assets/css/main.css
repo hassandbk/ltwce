@@ -34,3 +34,147 @@ textarea {
     transform: translateX(var(--scroll-dist));
   }
 }
+
+/* HEADER NAV CSS */
+/* Generic spin for elements with 'spin-slow' class on hover */
+
+/* Custom Animations for Icons (add to your main CSS file) */
+
+/* Generic spin for elements with 'spin-slow' class on hover */
+.group-hover\/subitem:spin-slow .fa-solid,
+.group-hover\/subsubitem:spin-slow .fa-solid,
+.group-hover:spin-slow .fa-solid {
+  animation: spin-animation 2s linear infinite; /* Adjust duration and iteration as needed */
+}
+
+@keyframes spin-animation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Bounce animation */
+.group-hover\/subitem:bounce-animation .fa-solid,
+.group-hover\/subsubitem:bounce-animation .fa-solid,
+.group-hover:bounce-animation .fa-solid {
+  animation: bounce-animation 0.8s ease-in-out infinite;
+}
+
+@keyframes bounce-animation {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+/* Pulse animation */
+.group-hover\/subitem:pulse-animation .fa-solid,
+.group-hover\/subsubitem:pulse-animation .fa-solid,
+.group-hover:pulse-animation .fa-solid {
+  animation: pulse-animation 1s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse-animation {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Jiggle animation */
+.group-hover\/subitem:jiggle-animation .fa-solid,
+.group-hover\/subsubitem:jiggle-animation .fa-solid,
+.group-hover:jiggle-animation .fa-solid {
+  animation: jiggle-animation 0.5s ease-in-out infinite;
+}
+
+@keyframes jiggle-animation {
+  0% {
+    transform: rotate(-1deg);
+  }
+  50% {
+    transform: rotate(1deg);
+  }
+  100% {
+    transform: rotate(-1deg);
+  }
+}
+
+/* Swing animation */
+.group-hover\/subitem:swing-animation .fa-solid,
+.group-hover\/subsubitem:swing-animation .fa-solid,
+.group-hover:swing-animation .fa-solid {
+  animation: swing-animation 1s ease-in-out infinite alternate;
+}
+
+@keyframes swing-animation {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(15deg);
+  } /* Adjust degree for more/less swing */
+}
+
+/* Shake animation */
+.group-hover\/subitem:shake-animation .fa-solid,
+.group-hover\/subsubitem:shake-animation .fa-solid,
+.group-hover:shake-animation .fa-solid {
+  animation: shake-animation 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both
+    infinite;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake-animation {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+/* Zoom in (scale) - already handled with Tailwind's group-hover:scale-110, etc. */
+/* If you want a custom keyframe for zoom, you'd add: */
+.group-hover\/subitem:zoom-in .fa-solid,
+.group-hover\/subsubitem:zoom-in .fa-solid,
+.group-hover:zoom-in .fa-solid {
+  animation: zoom-in-animation 0.3s ease-out forwards;
+}
+
+@keyframes zoom-in-animation {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}

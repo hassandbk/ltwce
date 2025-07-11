@@ -11,6 +11,7 @@ use CodeIgniter\Debug\Toolbar\Collectors\Routes;
 use CodeIgniter\Debug\Toolbar\Collectors\Timers;
 use CodeIgniter\Debug\Toolbar\Collectors\Views;
 
+
 /**
  * --------------------------------------------------------------------------
  * Debug Toolbar
@@ -37,11 +38,12 @@ class Toolbar extends BaseConfig
         Timers::class,
         Database::class,
         Logs::class,
-        Views::class,
-        // \CodeIgniter\Debug\Toolbar\Collectors\Cache::class,
+            // Views::class, // <-- This line is commented out to prevent view paths from appearing directly on the page.
+
         Files::class,
         Routes::class,
         Events::class,
+
     ];
 
     /**
@@ -117,6 +119,12 @@ class Toolbar extends BaseConfig
      * @var list<string>
      */
     public array $watchedExtensions = [
-        'php', 'css', 'js', 'html', 'svg', 'json', 'env',
+        'php',
+        'css',
+        'js',
+        'html',
+        'svg',
+        'json',
+        'env',
     ];
 }

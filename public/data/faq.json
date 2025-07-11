@@ -1,0 +1,54 @@
+{
+  "faqs": [
+    {
+      "id": 1,
+      "question": "Can I upgrade or downgrade at any time?",
+      "answer": "Yes, you can upgrade or downgrade your SACCO membership or service at any time. You have complete flexibility to adjust your plan based on your needs. Just visit your account dashboard, and you’ll be able to make the necessary changes without penalties or hidden fees."
+    },
+    {
+      "id": 2,
+      "question": "What are the advantages of joining LTWCE SACCO?",
+      "answer": "Joining LTWCE SACCO offers you access to various financial services designed to empower you. You will benefit from low-interest loans, savings options with attractive interest rates, and priority support. Additionally, our members enjoy exclusive access to micro-insurance services, financial literacy programs, and networking opportunities."
+    },
+    {
+      "id": 3,
+      "question": "Are there any commissions in addition to the monthly plans?",
+      "answer": "No, there are no hidden commissions or additional fees beyond the monthly service plans. What you see is what you pay. All transactions, loans, and other services provided through the SACCO are clear and straightforward, with no surprise charges."
+    },
+    {
+      "id": 4,
+      "question": "Can I request a refund for my membership or services?",
+      "answer": "Yes, we offer a 30-day money-back guarantee on most of our services. If you’re not satisfied with your membership or any other service you’ve purchased, you can request a refund within 30 days. Please contact our support team to process your refund."
+    },
+    {
+      "id": 5,
+      "question": "What are the loan products available through LTWCE SACCO?",
+      "answer": "LTWCE SACCO offers a range of loan products to suit the different needs of our members. These include personal loans, business loans, education loans, and emergency loans. All our loans come with competitive interest rates and flexible repayment plans, ensuring that you can access the funds you need while managing your financial situation comfortably."
+    },
+    {
+      "id": 6,
+      "question": "What are my payment options for LTWCE SACCO services?",
+      "answer": "We accept a variety of payment options for our services, including direct bank transfers, mobile money payments (e.g., M-Pesa), and payments via credit or debit cards. You can also set up automated payments for your convenience, ensuring that you never miss a due date."
+    },
+    {
+      "id": 7,
+      "question": "How do I become a member of LTWCE SACCO?",
+      "answer": "Becoming a member of LTWCE SACCO is simple. You can apply online through our website or visit any of our local branches. To join, you’ll need to provide some basic information, a valid ID, proof of residence, and make an initial deposit to your SACCO account."
+    },
+    {
+      "id": 8,
+      "question": "Do you offer discounts for students or educational institutions?",
+      "answer": "Yes, we offer special rates and discounts for students and educational institutions. If you’re a student, you can enjoy discounted rates on our loans and other services. Additionally, educational institutions can access tailored financial solutions for their staff and students."
+    },
+    {
+      "id": 9,
+      "question": "How can I track my loan application status?",
+      "answer": "You can easily track your loan application status by logging into your LTWCE SACCO account. Once logged in, go to the 'Loans' section, where you will see the status of your current applications. Alternatively, you can contact our support team for updates on your loan status."
+    },
+    {
+      "id": 10,
+      "question": "What happens if I miss a loan repayment?",
+      "answer": "If you miss a loan repayment, we advise you to contact us as soon as possible to discuss your situation. LTWCE SACCO offers flexible repayment options, and we can work with you to come up with a new repayment plan. We also provide financial counseling to help you manage your finances and avoid future payment issues."
+    }
+  ]
+}

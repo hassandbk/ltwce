@@ -8,13 +8,13 @@ class Autoload extends AutoloadConfig
 {
     // Autoloading libraries and services
     public $psr4 = [
-        APP_NAMESPACE    => APPPATH,          // Covers Controllers, Models, Services, etc.
-        'App\Libraries'  => APPPATH . 'Libraries',  // Custom Libraries
-        'App\Commands'   => APPPATH . 'Commands',   // Custom CLI Commands
-        'App\Entities'   => APPPATH . 'Entities',   // Custom Entities (ORM-style)
+        APP_NAMESPACE => APPPATH,          // Covers Controllers, Models, Services, etc.
+        'App\Libraries' => APPPATH . 'Libraries',  // Custom Libraries
+        'App\Commands' => APPPATH . 'Commands',   // Custom CLI Commands
+        'App\Entities' => APPPATH . 'Entities',   // Custom Entities (ORM-style)
         'App\ThirdParty' => APPPATH . 'ThirdParty', // Third-party libraries
+        'App\Services' => APPPATH . 'Services',
         // Add other namespaces as needed:
-        // 'App\Services'   => APPPATH . 'Services',
     ];
 
     // Manually specify class maps, for cases where autoloading doesn't work or you want to override
@@ -31,9 +31,13 @@ class Autoload extends AutoloadConfig
     // Autoloading helpers
     public $helpers = [
         // Core helpers provided by CodeIgniter
-        'url', 'form', 'date', 
-        'text', 'number', 
-        'filesystem', 'security', 
+        'url',
+        'form',
+        'date',
+        'text',
+        'number',
+        'filesystem',
+        'security',
 
         // Custom helpers specific to your app
         'money_helper',        // Custom helper for currency formatting

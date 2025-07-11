@@ -1,0 +1,70 @@
+{
+  "mainHeading": "Choose Your Membership Tier",
+  "subDescription": "Toggle below to view either the one‑time fee or the minimum share requirement. <span class='block mt-2'>Each share costs UGX\u00a010\u202F000.</span>",
+  "toggleLabels": {
+    "fee": "Show Fee",
+    "shares": "Show Shares"
+  },
+  "sharesPricePerUnit": 10000,
+  "tiers": [
+    {
+      "id": "starter",
+      "name": "Starter",
+      "fee": 10000,
+      "shares": 2,
+      "description": "Perfect for new savers—start small and join our community.",
+      "features": [
+        "Digital savings wallet & USSD access",
+        "Community welcome kit",
+        "Introductory savings workshop",
+        "Peer support circle",
+        "Monthly SMS balance alerts",
+        "Quarterly member newsletter"
+      ],
+      "callToActionTextFee": "Join for UGX\u00a010\u202F000",
+      "callToActionTextShares": "Buy\u00a02\u00a0shares (UGX\u00a020\u202F000)",
+      "link": "#",
+      "isPopular": false
+    },
+    {
+      "id": "growth",
+      "name": "Growth",
+      "fee": 30000,
+      "shares": 5,
+      "description": "Ideal for entrepreneurs—access loans, dividends, and deeper insights.",
+      "features": [
+        "All Starter benefits",
+        "Loan access up to UGX\u00a05\u202Fmillion",
+        "48‑hour loan approval",
+        "Financial health dashboard",
+        "Monthly PDF statements",
+        "Annual dividend & profit share",
+        "Business toolkit webinars"
+      ],
+      "callToActionTextFee": "Join for UGX\u00a030\u202F000",
+      "callToActionTextShares": "Buy\u00a05\u00a0shares (UGX\u00a050\u202F000)",
+      "link": "#",
+      "isPopular": true
+    },
+    {
+      "id": "leader",
+      "name": "Leader",
+      "fee": 50000,
+      "shares": 10,
+      "description": "Full privileges—large loans, coaching, governance, and insurance.",
+      "features": [
+        "All Growth benefits",
+        "Investment loans up to UGX\u00a020\u202Fmillion",
+        "Quarterly one‑on‑one coaching",
+        "Governance & voting rights",
+        "Invite‑only Leaders’ Forum",
+        "Complimentary micro‑insurance",
+        "Priority customer support"
+      ],
+      "callToActionTextFee": "Join for UGX\u00a050\u202F000",
+      "callToActionTextShares": "Buy\u00a010\u00a0shares (UGX\u00a0100\u202F000)",
+      "link": "#",
+      "isPopular": false
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "feedback": [
+    {
+      "sectionId": 1,
+      "sectionTitle": "Latest News",
+      "articles": [
+        {
+          "articleId": 101,
+          "articleTitle": "LTWCE SACCO Web Portal Launch: Transforming Member Access",
+          "feedbackList": [
+            {
+              "feedbackId": "101-anna-l-2025-07-01T10:00:00Z",
+              "userId": "anna-l",
+              "name": "Anna L.",
+              "email": "anna.l@example.com",
+              "location": "Nairobi, Kenya",
+              "timestampDiff": 1,
+              "message": "This guide was so clear—really helped me start quickly!",
+              "avatar": {
+                "src": "/images/avatars/anna-l.jpg",
+                "alt": "Anna L.'s avatar"
+              },
+              "createdAt": "2025-07-01T10:00:00Z"
+            },
+            {
+              "feedbackId": "101-kevin-p-2025-07-01T11:00:00Z",
+              "userId": "kevin-p",
+              "name": "Kevin P.",
+              "email": "kevin.p@domain.co",
+              "location": "Kampala, Uganda",
+              "timestampDiff": 2,
+              "message": "Loved the step-by-step—avoided all the pitfalls.",
+              "avatar": {
+                "src": "/images/avatars/kevin-p.jpg",
+                "alt": "Kevin P.'s avatar"
+              },
+              "createdAt": "2025-07-01T11:00:00Z"
+            },
+            {
+              "feedbackId": "101-maria-s-2025-07-01T12:00:00Z",
+              "userId": "maria-s",
+              "name": "Maria S.",
+              "email": "maria.s@example.org",
+              "location": "Dar es Salaam, Tanzania",
+              "timestampDiff": 3,
+              "message": "Could use more screenshots, but text was thorough.",
+              "avatar": {
+                "src": "/images/avatars/maria-s.jpg",
+                "alt": "Maria S.'s avatar"
+              },
+              "createdAt": "2025-07-01T12:00:00Z"
+            },
+            {
+              "feedbackId": "101-james-k-2025-07-01T13:00:00Z",
+              "userId": "james-k",
+              "name": "James K.",
+              "email": "james.k@domain.io",
+              "location": "Mombasa, Kenya",
+              "timestampDiff": 4,
+              "message": "Example code made everything click—thanks!",
+              "avatar": {
+                "src": "/images/avatars/james-k.jpg",
+                "alt": "James K.'s avatar"
+              },
+              "createdAt": "2025-07-01T13:00:00Z"
+            },
+            {
+              "feedbackId": "101-linda-r-2025-07-01T14:00:00Z",
+              "userId": "linda-r",
+              "name": "Linda R.",
+              "email": "linda.r@example.com",
+              "location": "Kigali, Rwanda",
+              "timestampDiff": 5,
+              "message": "Got up and running in minutes—awesome intro.",
+              "avatar": {
+                "src": "/images/avatars/linda-r.jpg",
+                "alt": "Linda R.'s avatar"
+              },
+              "createdAt": "2025-07-01T14:00:00Z"
+            }
+          ]
+        },
+        {
+          "articleId": 102,
+          "articleTitle": "Microfinance Success: Empowering Communities through SACCO Loans",
+          "feedbackList": [
+            {
+              "feedbackId": "102-john-d-2025-07-02T10:00:00Z",
+              "userId": "john-d",
+              "name": "John D.",
+              "email": "john.d@example.com",
+              "location": "Mombasa, Kenya",
+              "timestampDiff": 1,
+              "message": "Amazing success stories. I hope to be part of the initiative soon.",
+              "avatar": {
+                "src": "/images/avatars/john-d.jpg",
+                "alt": "John D.'s avatar"
+              },
+              "createdAt": "2025-07-02T10:00:00Z"
+            },
+            {
+              "feedbackId": "102-emily-r-2025-07-02T11:00:00Z",
+              "userId": "emily-r",
+              "name": "Emily R.",
+              "email": "emily.r@domain.com",
+              "location": "Kigali, Rwanda",
+              "timestampDiff": 2,
+              "message": "Great to see how SACCO loans are impacting real lives.",
+              "avatar": {
+                "src": "/images/avatars/emily-r.jpg",
+                "alt": "Emily R.'s avatar"
+              },
+              "createdAt": "2025-07-02T11:00:00Z"
+            },
+            {
+              "feedbackId": "102-oliver-m-2025-07-02T12:00:00Z",
+              "userId": "oliver-m",
+              "name": "Oliver M.",
+              "email": "oliver.m@example.com",
+              "location": "Nairobi, Kenya",
+              "timestampDiff": 3,
+              "message": "It’s inspiring to read about the real-world effects of these loans.",
+              "avatar": {
+                "src": "/images/avatars/oliver-m.jpg",
+                "alt": "Oliver M.'s avatar"
+              },
+              "createdAt": "2025-07-02T12:00:00Z"
+            },
+            {
+              "feedbackId": "102-sophia-c-2025-07-02T13:00:00Z",
+              "userId": "sophia-c",
+              "name": "Sophia C.",
+              "email": "sophia.c@domain.net",
+              "location": "Mombasa, Kenya",
+              "timestampDiff": 4,
+              "message": "Great article! I feel motivated to apply for a loan myself.",
+              "avatar": {
+                "src": "/images/avatars/sophia-c.jpg",
+                "alt": "Sophia C.'s avatar"
+              },
+              "createdAt": "2025-07-02T13:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": 2,
+      "sectionTitle": "Popular Services",
+      "articles": [
+        {
+          "articleId": 201,
+          "articleTitle": "LTWCE SACCO's New Micro-Insurance Services for Members",
+          "feedbackList": [
+            {
+              "feedbackId": "201-joseph-d-2025-07-03T10:00:00Z",
+              "userId": "joseph-d",
+              "name": "Joseph D.",
+              "email": "joseph.d@example.com",
+              "location": "Nairobi, Kenya",
+              "timestampDiff": 1,
+              "message": "This is a game-changer for SACCO members, offering peace of mind.",
+              "avatar": {
+                "src": "/images/avatars/joseph-d.jpg",
+                "alt": "Joseph D.'s avatar"
+              },
+              "createdAt": "2025-07-03T10:00:00Z"
+            },
+            {
+              "feedbackId": "201-helen-q-2025-07-03T11:00:00Z",
+              "userId": "helen-q",
+              "name": "Helen Q.",
+              "email": "helen.q@example.com",
+              "location": "Nairobi, Kenya",
+              "timestampDiff": 2,
+              "message": "The micro-insurance service is exactly what I was looking for. Excellent!",
+              "avatar": {
+                "src": "/images/avatars/helen-q.jpg",
+                "alt": "Helen Q.'s avatar"
+              },
+              "createdAt": "2025-07-03T11:00:00Z"
+            },
+            {
+              "feedbackId": "201-charles-w-2025-07-03T12:00:00Z",
+              "userId": "charles-w",
+              "name": "Charles W.",
+              "email": "charles.w@example.com",
+              "location": "Kigali, Rwanda",
+              "timestampDiff": 3,
+              "message": "I'm excited about the new micro-insurance services—great value for money!",
+              "avatar": {
+                "src": "/images/avatars/charles-w.jpg",
+                "alt": "Charles W.'s avatar"
+              },
+              "createdAt": "2025-07-03T12:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": 3,
+      "sectionTitle": "Products & Services",
+      "articles": [
+        {
+          "articleId": 301,
+          "articleTitle": "Introducing the LTWCE SACCO Mobile App for Easy Transactions",
+          "feedbackList": [
+            {
+              "feedbackId": "301-charles-w-2025-07-04T10:00:00Z",
+              "userId": "charles-w",
+              "name": "Charles W.",
+              "email": "charles.w@example.com",
+              "location": "Kigali, Rwanda",
+              "timestampDiff": 1,
+              "message": "The mobile app is amazing! Everything is so easy to access now.",
+              "avatar": {
+                "src": "/images/avatars/charles-w.jpg",
+                "alt": "Charles W.'s avatar"
+              },
+              "createdAt": "2025-07-04T10:00:00Z"
+            },
+            {
+              "feedbackId": "301-mike-k-2025-07-04T11:00:00Z",
+              "userId": "mike-k",
+              "name": "Mike K.",
+              "email": "mike.k@example.org",
+              "location": "Kampala, Uganda",
+              "timestampDiff": 2,
+              "message": "Looking forward to seeing more features on the mobile app!",
+              "avatar": {
+                "src": "/images/avatars/mike-k.jpg",
+                "alt": "Mike K.'s avatar"
+              },
+              "createdAt": "2025-07-04T11:00:00Z"
+            },
+            {
+              "feedbackId": "301-victor-h-2025-07-04T12:00:00Z",
+              "userId": "victor-h",
+              "name": "Victor H.",
+              "email": "victor.h@service.io",
+              "location": "Mombasa, Kenya",
+              "timestampDiff": 3,
+              "message": "I love how fast the app is! Hope to see it available on more devices soon.",
+              "avatar": {
+                "src": "/images/avatars/victor-h.jpg",
+                "alt": "Victor H.'s avatar"
+              },
+              "createdAt": "2025-07-04T12:00:00Z"
+            }
+          ]
+        },
+        {
+          "articleId": 302,
+          "articleTitle": "Explore New Loan Products from LTWCE SACCO",
+          "feedbackList": [
+            {
+              "feedbackId": "302-ian-r-2025-07-05T10:00:00Z",
+              "userId": "ian-r",
+              "name": "Ian R.",
+              "email": "ian.r@domain.co",
+              "location": "Kampala, Uganda",
+              "timestampDiff": 1,
+              "message": "The new loan products look promising. I’ll apply soon!",
+              "avatar": {
+                "src": "/images/avatars/ian-r.jpg",
+                "alt": "Ian R.'s avatar"
+              },
+              "createdAt": "2025-07-05T10:00:00Z"
+            },
+            {
+              "feedbackId": "302-elena-g-2025-07-05T11:00:00Z",
+              "userId": "elena-g",
+              "name": "Elena G.",
+              "email": "elena.g@example.org",
+              "location": "Dar es Salaam, Tanzania",
+              "timestampDiff": 2,
+              "message": "Good options for members with different needs—very helpful.",
+              "avatar": {
+                "src": "/images/avatars/elena-g.jpg",
+                "alt": "Elena G.'s avatar"
+              },
+              "createdAt": "2025-07-05T11:00:00Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

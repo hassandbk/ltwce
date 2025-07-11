@@ -1,0 +1,17 @@
+{
+  "mainHeading": "We're fortunate to have incredible partners.",
+  "investors": [
+    { "id": 1, "name": "Airtel", "logo": "/assets/images/airtel.png" },
+    { "id": 2, "name": "MTN", "logo": "/assets/images/mtn.png" },
+    {
+      "id": 3,
+      "name": "Centenary Bank",
+      "logo": "/assets/images/centenary.png"
+    },
+    { "id": 4, "name": "Stanbic Bank", "logo": "/assets/images/stanbic.png" },
+    { "id": 5, "name": "Equity Bank", "logo": "/assets/images/equity.png" },
+    { "id": 6, "name": "KCCA", "logo": "/assets/images/kcca.png" },
+    { "id": 7, "name": "Wendi", "logo": "/assets/images/wendi.png" },
+    { "id": 8, "name": "Double Q", "logo": "/assets/images/doubleq.png" }
+  ]
+}
